@@ -82,11 +82,10 @@ canvas {
   display: none;
 }
 
-/* NEW: header colors */
 .male-header {
-  color: #1f77b4; /* matches male chart line */
+  color: #1f77b4; 
 }
 
 .female-header {
-  color: #e377c2; /* matches female chart line */
+  color: #e377c2; 
 }
