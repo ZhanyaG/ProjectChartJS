@@ -6,7 +6,6 @@
   <title>Gender Mentions in Artworks Over Time</title>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -18,6 +17,35 @@
   <main class="chart-wrapper">
     <canvas id="myChart"></canvas>
   </main>
+
+  <p id="summary" class="chart-note">
+    This chart shows gender representation in MoMA’s collection over time.
+    Male artists dominate from the 19th century onward, while female
+    representation grows gradually in the late 20th century.
+    Use the legend to isolate each group and explore their historical peaks.
+  </p>
+
+  <div id="maleInfo" class="info hidden">
+      <h2>Male Artist Dominance: Historical Peaks</h2>
+    <ul>
+      <li><strong>1930–1948</strong> — Interwar and post–World War II institutional consolidation.</li>
+      <li><strong>1937</strong> — Expansion of modernist narratives during global political tension.</li>
+      <li><strong>1945</strong> — Post-war canon formation centered on male modernists.</li>
+      <li><strong>1965</strong> — <em>Highest peak (over 2,000 artworks)</em>, coinciding with MoMA’s expansion and canon solidification.</li>
+      <li><strong>1991</strong> — Market-driven collecting during late modernism.</li>
+      <li><strong>2003</strong> — Globalized contemporary art still dominated by male artists.</li>
+    </ul>
+  </div>
+
+  <div id="femaleInfo" class="info hidden">
+   <h2>Female Artist Visibility: Key Moments</h2>
+    <ul>
+      <li><strong>1899</strong> — Early but marginal inclusion of women artists.</li>
+      <li><strong>1931</strong> — Interwar visibility, still institutionally limited.</li>
+      <li><strong>1977–1979</strong> — Feminist art movements and institutional critique.</li>
+      <li><strong>1999</strong> — <em>Highest peak (≈570 artworks)</em>, reflecting curatorial reassessment and feminist art history.</li>
+    </ul>
+  </div>
 
   <script src="./script.js"></script>
 </body>
