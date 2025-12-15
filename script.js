@@ -18,7 +18,6 @@ async function loadData() {
   for (let i = 0; i < data.length; i++) {
     let gender = data[i].Gender;
 
-    // 🔹 Normalize gender
     if (Array.isArray(gender)) {
       gender = gender[0];
     }
@@ -76,7 +75,7 @@ function createChart() {
       plugins: {
         title: {
           display: true,
-          text: 'Gender Mentions in Artworks Over Time'
+          text: 'Painting domination in Artworks Over Time'
         }
       }
     }
